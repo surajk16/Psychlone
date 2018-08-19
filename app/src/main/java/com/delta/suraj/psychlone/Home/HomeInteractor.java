@@ -2,7 +2,7 @@ package com.delta.suraj.psychlone.Home;
 
 import android.text.TextUtils;
 
-import com.delta.suraj.psychlone.GameUtilities;
+import com.delta.suraj.psychlone.Connection.ConnectionUtilities;
 
 public class HomeInteractor {
 
@@ -18,8 +18,8 @@ public class HomeInteractor {
             return;
         }
 
-        GameUtilities.setPlayerName(name);
-        GameUtilities.setPlayerType("HOST");
+        ConnectionUtilities.setPlayerName(name.trim());
+        ConnectionUtilities.setPlayerType("HOST");
 
         listener.onSuccess();
     }
@@ -31,8 +31,8 @@ public class HomeInteractor {
             return;
         }
 
-        GameUtilities.setPlayerName(name);
-        GameUtilities.setPlayerType("PLAYER");
+        ConnectionUtilities.setPlayerName(name.trim());
+        ConnectionUtilities.setPlayerType("PLAYER");
 
         listener.onSuccess();
     }

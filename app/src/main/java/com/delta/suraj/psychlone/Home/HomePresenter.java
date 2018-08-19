@@ -35,6 +35,7 @@ public class HomePresenter implements HomeInteractor.OnFinishListener {
     @Override
     public void onSuccess() {
         if (homeView != null)
+            homeView.hideProgress();
             homeView.navigateToConnections();
     }
 }

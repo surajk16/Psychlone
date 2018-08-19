@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".Home.MainActivity">
+    tools:context=".Home.HomeActivity">
 
     <TextView
         android:id="@+id/title"
@@ -47,6 +48,7 @@
         app:boxStrokeWidth="10dp">
 
         <android.support.design.widget.TextInputEditText
+            android:id="@+id/name_edit_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/lato"
@@ -89,11 +91,5 @@
         android:textSize="30sp"
         app:cornerRadius="50dp"/>
 
-    <ProgressBar
-        android:id="@+id/progress"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:visibility="gone" />
 
 </RelativeLayout>
