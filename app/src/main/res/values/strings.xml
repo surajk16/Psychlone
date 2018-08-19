@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Psychlone</string>
+    <string name="title">PSYCHLONE</string>
+    <string name="enter_name">ENTER YOUR NAME</string>
+    <string name="host_button">HOST</string>
+    <string name="play_button">PLAY</string>
 </resources>

@@ -4,6 +4,7 @@
     <color name="colorPrimaryDark">#00675b</color>
     <color name="colorPrimaryLight">#52c7b8</color>
     <color name="colorSecondary">#4dd0e1</color>
+    <color name="colorAccent">#52c7b8</color>
     <color name="colorSecondaryDark">#009faf</color>
     <color name="colorSecondaryLight">#88ffff</color>
     <color name="textColorPrimary">#212121</color>
